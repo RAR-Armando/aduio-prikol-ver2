@@ -1,0 +1,133 @@
+body{
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   padding: 0;
+   margin: 0;
+   background-color: #b7b7b7;
+}
+
+
+
+
+.header{
+   width: 100%;
+   height: 70px;
+   background-color: #4A4944;
+}
+
+nav{
+   background: #3e2597;
+   padding: 0;
+   margin: 0;
+}
+
+.menu{
+   width: 100%;
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+}
+
+.menu li{
+   float: left;
+}
+.menu li a{
+ display: inline-block;
+ padding: 10px 15px;
+ color: #E5BC27;
+ font-size: 34px;
+ text-decoration: none;
+}
+
+.wrapper{
+   max-width: 1024px;
+   padding: 10px;
+   margin: 0px auto; 
+}
+
+
+.menuToggle{ 
+   width: 63px; 
+   display: block;
+   padding: 13px 8px;
+   color: #fff;
+   
+   cursor: pointer;
+   display: none;
+}
+
+.menu-img{
+   transition: .6s;
+}
+
+
+.menu-active{
+   transform: rotate(90deg);
+   transition: .6s;
+}
+
+.text-name{
+   
+   padding-left: 10px;
+   border-left: 5px #ffcc00 solid;
+   margin-left: 23px;
+   color: #E5BC27;
+   font-size: 32px;
+}
+
+body{
+   height: 100%;
+}
+
+.title-text{
+   margin: 5px;
+   margin-right: 100px;
+   float: right;
+   color: #E5BC27;
+   font-size: 24px;
+}
+
+
+.obloska{
+   margin-top: 100px;
+   border-radius: 5px;
+   width: 100%;
+}
+
+.card-help{
+   margin-top: 50px;
+}
+
+.card{
+   border-radius: 10px;
+   background-color: #4A4944;
+   width: 384px;
+   height: 350px;
+   margin-top: 100px;
+}
+
+
+
+
+@media( max-width: 40040px){
+   .menuToggle{
+       display: block;
+   }
+   .menu{
+      height: 400px;
+       display: none;
+       position: absolute;
+       background: #4A4944;
+       width: 100%;
+       margin-left: -10px;
+       padding-left: 10px;
+   }
+   .menu li{
+       float: none;
+   }
+}
+
+@media(max-width:410px){
+   .header{
+      width: 410px;
+   }
+}
